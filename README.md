@@ -27,6 +27,11 @@ Now you can simply run
 ```
 karate name_of.feature
 ```
+or
+```
+karate *.feature
+```
+to run all of the tests.
 
 You might have to install Java Runtime Environment and give permittion to your jar file.
 ```
