@@ -1,7 +1,7 @@
 Feature: testing v1 voicevox api
 
   Background:
-    * def ur = 'https://testing.tts.quest/'
+    * def ur = 'https://api.tts.quest/'
     * url ur
     * def key = java.lang.System.getenv('TTSQUEST_API_KEY');
     * def canTakeUpTo = 1;
